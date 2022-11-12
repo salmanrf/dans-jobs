@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "f4b1c8a9-368f-4a5b-a986-d4f10428d807",
+    "colName": "Jobs API",
+    "created": "2022-11-12T03:56:30.463Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "1e6c6eb3-a81c-4ce1-9bca-0b25451d667a",
+        "name": "Auth",
+        "containerId": "",
+        "created": "2022-11-12T03:56:44.612Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "2bf6996b-3c9f-48f6-b379-1ea88c22e24f",
+        "name": "Jobs",
+        "containerId": "",
+        "created": "2022-11-12T04:13:33.359Z",
+        "sortNum": 20000
+      }
+    ]
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "_id": "3e85b322-4877-4061-993e-bd06e836f9bc",
+    "colId": "f4b1c8a9-368f-4a5b-a986-d4f10428d807",
+    "containerId": "1e6c6eb3-a81c-4ce1-9bca-0b25451d667a",
+    "name": "Login",
+    "url": "{{URL}}/auth/login",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-11-12T03:56:48.915Z",
+    "modified": "2022-11-12T04:00:19.681Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"salmanrf\",\n  \"password\": \"tranquilwalkofpeace\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "f90bf26a-8167-4e44-a105-43318e1da841",
+    "colId": "f4b1c8a9-368f-4a5b-a986-d4f10428d807",
+    "containerId": "1e6c6eb3-a81c-4ce1-9bca-0b25451d667a",
+    "name": "Signup",
+    "url": "{{URL}}/auth/signup",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-11-12T03:56:53.107Z",
+    "modified": "2022-11-12T03:58:19.841Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"full_name\": \"Salman Rizqi Fatih\",\n  \"username\": \"salmanrf\",\n  \"password\": \"tranquilwalkofpeace\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "16f76bf0-edbe-4559-9a78-ad20ebd7d9e8",
+    "colId": "f4b1c8a9-368f-4a5b-a986-d4f10428d807",
+    "containerId": "1e6c6eb3-a81c-4ce1-9bca-0b25451d667a",
+    "name": "Get Self",
+    "url": "{{URL}}/auth",
+    "method": "GET",
+    "sortNum": 15000,
+    "created": "2022-11-12T04:03:25.411Z",
+    "modified": "2022-11-12T04:13:25.619Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"salmanrf\",\n  \"password\": \"tranquilwalkofpeace\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{TOKEN}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "502df1d8-8432-41c7-a3ed-8f65c14adad0",
+    "colId": "f4b1c8a9-368f-4a5b-a986-d4f10428d807",
+    "containerId": "2bf6996b-3c9f-48f6-b379-1ea88c22e24f",
+    "name": "Find Jobs",
+    "url": "http://localhost:8000/jobs/login?page=1&location=&description=",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-11-12T05:12:29.255Z",
+    "modified": "2022-11-12T08:15:01.497Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "page",
+        "value": "1",
+        "isPath": false
+      },
+      {
+        "name": "full_time",
+        "value": "false",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "location",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "description",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"full_name\": \"Salman Rizqi Fatih\",\n  \"username\": \"salmanrf\",\n  \"password\": \"tranquilwalkofpeace\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{TOKEN}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "8ba2318d-d912-4f47-a983-3b860bc6d91a",
+    "colId": "f4b1c8a9-368f-4a5b-a986-d4f10428d807",
+    "containerId": "2bf6996b-3c9f-48f6-b379-1ea88c22e24f",
+    "name": "Get Job",
+    "url": "{{URL}}/jobs/2e99bd71-9684-4182-bd59-28a634ec9dd7",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-11-12T05:52:40.486Z",
+    "modified": "2022-11-12T05:53:05.263Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"full_name\": \"Salman Rizqi Fatih\",\n  \"username\": \"salmanrf\",\n  \"password\": \"tranquilwalkofpeace\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{TOKEN}}"
+    },
+    "tests": []
+  }
+]
